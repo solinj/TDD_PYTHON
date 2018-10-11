@@ -1,0 +1,12 @@
+language: python
+
+#python 3.7 workaround for travis
+
+python:
+ - 3.7
+ 
+ install:
+  - pip install -r requirements.txt
+  
+ script:
+  - python mytests.py
