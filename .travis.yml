@@ -1,9 +1,9 @@
 language: python
 
-#python 3.7 workaround for travis
-
 python:
  - 3.7
+ - 3.6
+ - 2.7
   
 script:
  - python mytests.py
